@@ -158,7 +158,7 @@
 
     
 6)  #### Configure system:
-    - Click on Manage Jenkins --> Global Tool Configuration
+    - Click on Manage Jenkins --> Configure system
 
         1)  - Go to section SonarQube servers --> **Add SonarQube **
             - Name: **SonarQube**
@@ -173,7 +173,7 @@
 
 ### SonarQube setup
 
-Copy your Jenkins Public IP Address and paste on the browser = ExternalIP:9000
+Copy your SonarQube Public IP Address and paste on the browser = ExternalIP:9000
 
 1)  #### Jenkins webhook in SonarQube:
     - Login into SonarQube
@@ -185,7 +185,7 @@ Copy your Jenkins Public IP Address and paste on the browser = ExternalIP:9000
 
 ### Nexus setup
 
-Copy your Jenkins Public IP Address and paste on the browser = http:://NexusServerExternalIP:8081
+Copy your Nexus Public IP Address and paste on the browser = http:://NexusServerExternalIP:8081
 
 1)  #### Setting up password:
     - SSH into Nexus server
