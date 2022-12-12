@@ -214,7 +214,7 @@ Nothing to be done for the Ansible setup as the jenkins server already created w
 
 ### Prometheus setup
 
-Copy your Jenkins Public IP Address and paste on the browser = http:://PrometheusServerExternalIP:9090
+Copy your Prometheus Public IP Address and paste on the browser = http:://PrometheusServerExternalIP:9090
 
 Note: Prometheus setup is also full automated, so just verifying the health of servers are required
 
@@ -227,7 +227,7 @@ Note: Prometheus setup is also full automated, so just verifying the health of s
 
 ### Grafana setup
 
-Copy your Jenkins Public IP Address and paste on the browser = http:://GrafanaServerExternalIP:3000
+Copy your Grafana Public IP Address and paste on the browser = http:://GrafanaServerExternalIP:3000
 
 1)  #### Setting up username & password:
     - Once the UI Opens pass the following username and password
